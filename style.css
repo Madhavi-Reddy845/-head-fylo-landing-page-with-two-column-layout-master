@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+   }
+   
+p{
+   Font-size: 16px
+}
+li{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: medium;
+
+}
+h1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  button{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+#logo{
+    margin-left:60px;
+    margin-top:40px;
+}
+#banner ul{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+}
+li{
+    margin-top:-30px;
+    padding:0px 30px;
+}
+
+/* --------------------illustration-1  styles---------------- */
+
+#mainbanner{
+    width:100%;
+    gap:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-banner{
+    width: 70%;
+    gap:30px;
+    margin:0px 60px;  
+   
+}
+.left-banner p{
+    margin-top:30px;
+
+}
+.left-banner input{
+    margin-top:30px;
+    margin-right:10px;
+    padding:10px 60px;
+}
+#getstarted{
+    background-color:hsl(224, 93%, 58%);
+    color:white;
+    border:none;
+    padding:13px 40px;
+    border-radius: 5px;
+    width: max-content;
+
+}
+
+.right-banner img{
+    width:100%;
+
+}
+/* -----------illustration2 styles-------------------------- */
+#secondbanner{
+    margin-top:100px;
+    background-image: url(./images/bg-curve-mobile.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ #secondbanner{
+    width:100%;
+    display:flex;
+    justify-content: center;
+ }
+ 
+ .left1{
+    width: 70%;
+    margin:50px 60px;  
+
+ }
+ .left1 h1{
+    padding-top:50px;
+    margin-top:80px;
+
+ }
+ .left1 #firstp{
+    margin-top:30px;
+ }
+ .left1 p{
+    margin-top:15px;
+ }
+ .left1 #secondp{
+    color:hsl(170, 45%, 43%);
+ }
+ .left1 hr{
+    background-color:hsl(170, 45%, 43%);
+    width:24%;
+ }
+.left-end{
+    margin-top:30px;
+    background-color:white;
+    border:0.5px solid white;
+    border-radius:8px;
+    max-width:60%;
+    padding:20px 40px;
+
+}
+/* man log-styles */
+
+#manlogo{
+    width:50px;
+    border-radius: 25px;
+    float:left;
+    margin:20px;
+}
+#manimg p {
+    overflow: auto; 
+}
+.left1 #manimg{
+    padding:20px;
+}
+
+
+/* ---------right  --------       one ------------------- */
+
+.right1 img{
+    width:100%;
+    height:300px;
+    margin-top:80px;
+    display:inline;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------------------------third banner styles---------------------------- */
+
+
+
+ #thirdbanner {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    height:250px;
+    margin-right:0;
+} 
+#thirdbanner .left2{
+    display: inline-block;
+    align-items: center;
+    padding:50px 60px; 
+}
+.left2 p{
+    margin-bottom:30px;
+}
+.left2 input{
+margin-top:10px;
+margin-right:10px;
+padding:10px 60px;
+}
+
+
+
+
+
+
+/* #thirdbanner .right2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+#thirdbanner .right2 input {
+    width: 300px; 
+    padding: 10px;
+}
+
+
+#thirdbanner .right2 button{
+    background-color:hsl(224, 93%, 58%);
+    color:white;
+    border:none;
+    padding:13px 40px;
+    border-radius: 5px;
+    width: max-content;
+
+}
+
+ */
+
+#getstarted:hover {
+    background-color: #0056b3; /* Button hover effect */
+}
+
+/* -------------------------footer styles-------------------- */
+
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    height:350px;
+    color: white;
+    display: flex;
+}
+footer>div{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    padding: 50px 100px;
+}
+footer p{
+    margin-top:20px;
+}
+.menu{
+    width: 20%;
+}
+.menu1 img{
+    width: 150px;
+    color: white;
+}
+.menu1 p img{
+    width:15px;
+    margin-right:10px;
+}
+.about,.contact,.social{
+    margin-top:60px;
+}
+
+.social{
+    display: inline-block;
+    justify-content: space-evenly;
+    gap:5px;
+    padding:60px;
+}
+
